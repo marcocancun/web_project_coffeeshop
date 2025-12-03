@@ -1,5 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Noto+Serif:wght@400;700&display=swap");
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100px;
+  background-color: #f8f8f8;
+}
+
+.content {
+  min-height: 600px;
+  background-color: #ffffff;
+}
+
+.footer {
+  height: 80px;
+  background-color: #f1f1f1;
 }
