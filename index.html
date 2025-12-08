@@ -17,11 +17,9 @@
     <!-- NORMALIZE -->
     <link rel="stylesheet" href="./vendor/normalize.css" />
 
-    <!-- PRECONNECT PARA GOOGLE FONTS -->
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- FUENTES INTER (400, 500, 700) + NOTO SERIF ITALIC 400 -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@1,400&display=swap"
       rel="stylesheet"
@@ -61,15 +59,18 @@
           <span class="header__span-accent">Café de especialidad</span><br />
           en la librería Triple Peaks
         </h1>
+
         <p class="header__description">
           ¡Te damos la bienvenida a nuestra zona de estudio! Tenemos café para
           darte energía y un ambiente acogedor que motivará tu creatividad.
         </p>
+
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
           alt="Ilustración de la cafetería Triple Peaks"
         />
+
         <div class="header__footer">
           <p class="header__paragraph">
             <span class="header__paragraph-heading">Horario:</span><br />
@@ -86,54 +87,64 @@
 
       <!-- ========== MAIN ========== -->
       <main class="content">
-        <!-- SECCIONES OBLIGATORIAS-->
-        <section class="recipes" id="recipes"></section>
-
-        <section class="reservation" id="reservation"></section>
-
-        <section class="menu" id="menu"></section>
-
-        <section class="contacts" id="contacts"></section>
+        <!-- 1) RECIPES -->
         <section class="recipes" id="recipes">
-          <section class="recipes" id="recipes">
-  <h2 class="recipes__title">Recetas</h2>
+          <h2 class="recipes__title">Recetas</h2>
+          <p class="recipes__subtitle">
+            Explora algunas recetas que reunimos para que hagas tus propios
+            snacks.
+          </p>
 
-  <p class="recipes__subtitle">
-    Explora algunas recetas que reunimos para que hagas tus propios snacks.
-  </p>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                allowfullscreen
+              ></iframe>
 
-  <div class="recipes__videos">
-    <div class="recipes__video-item">
-      <iframe
-        class="recipes__iframe"
-        src="https://www.youtube.com/embed/j6VlT_jUVPc"
-        allowfullscreen
-      ></iframe>
+              <div class="recipes__video-caption">
+                <span>Receta en Aeropress</span>
+                <span>~5 min</span>
+              </div>
+            </div>
 
-      <div class="recipes__video-caption">
-        <span>Receta en Aeropress</span>
-        <span>~5 min</span>
-      </div>
-    </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                allowfullscreen
+              ></iframe>
 
-    <div class="recipes__video-item">
-      <iframe
-        class="recipes__iframe"
-        src="https://www.youtube.com/embed/st571DYYTR8"
-        allowfullscreen
-      ></iframe>
+              <div class="recipes__video-caption">
+                <span>Receta en cafetera francesa</span>
+                <span>~15 min</span>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <div class="recipes__video-caption">
-        <span>Receta en cafetera francesa</span>
-        <span>~15 min</span>
-      </div>
-    </div>
-  </div>
-</section>
+        <!-- 2) RESERVATION -->
+        <section class="reservation" id="reservation">
+          <!-- contenido de reservar una mesa vendrá en otra etapa -->
+        </section>
+
+        <!-- 3) MENU -->
+        <section class="menu" id="menu">
+          <!-- contenido del menú vendrá después -->
+        </section>
+
+        <!-- 4) CONTACTS -->
+        <section class="contacts" id="contacts">
+          <!-- contenido de contactos vendrá después -->
+        </section>
       </main>
+
       <!-- ========== FOOTER ========== -->
       <footer class="footer">
-        <nav class="footer__nav"></nav>
+        <nav class="footer__nav">
+          <!-- contenido del footer -->
+        </nav>
       </footer>
     </div>
   </body>
