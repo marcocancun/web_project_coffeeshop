@@ -25,7 +25,6 @@ body {
   height: 100vh;
   padding: 32px 80px 40px;
   background-color: #ffffff;
-  /* usa la imagen de fondo del proyecto */
   background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-position: right center;
@@ -63,7 +62,6 @@ body {
 }
 
 /* TÍTULO PRINCIPAL */
-
 .header__title {
   margin: 0 0 28px;
   max-width: 709px;
@@ -82,19 +80,18 @@ body {
   color: #2f80ed;
 }
 
-/* DESCRIPCIÓN */
-
+/* DESCRIPCIÓN (BRIEF: Noto Serif italic) */
 .header__description {
   max-width: 683px;
   margin: 0 0 40px;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
   font-size: 20px;
   line-height: 30px;
   color: #000000;
 }
 
 /* IMAGEN ILUSTRACIÓN DERECHA */
-
 .header__image {
   position: absolute;
   top: 140px;
@@ -104,7 +101,6 @@ body {
 }
 
 /* FOOTER DEL HEADER: HORARIO Y DIRECCIÓN */
-
 .header__footer {
   margin-top: auto;
   padding-top: 32px;
@@ -116,7 +112,7 @@ body {
 .header__paragraph {
   margin: 0;
   max-width: 420px;
-  color: #555555;
+  color: #838383; /* BRIEF */
 }
 
 .header__paragraph-heading {
@@ -128,73 +124,65 @@ body {
 .content {
   background-color: #ffffff;
 }
-/* ====== RECIPES ====== */
+
+/* ============ RECIPES ============ */
 
 .recipes {
   background-color: #0a2850;
   color: #ffffff;
-  padding: 20px 0 120px;
+  padding: 100px 80px 215px; /* BRIEF */
   background-image: url("../images/background_recipes.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; /* BRIEF */
   background-size: cover;
 }
 
-/* Título "Recetas" */
 .recipes__title {
   font-family: "Inter", Arial, sans-serif;
   font-size: 44px;
   font-weight: 700;
   line-height: 52px;
   max-width: 580px;
-  margin: 0 0 24px;
-  padding-left: 100px; /* 100px desde la izquierda */
-  text-align: left; /* IMPORTANTE: para quitar el centrado */
+  margin: 0 0 24px; /* BRIEF */
 }
 
-/* Subtítulo */
 .recipes__subtitle {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 18px;
   line-height: 30px;
-  max-width: 438px; /* como en el brief */
-  margin: 0 0 80px;
-  padding-left: 100px;
-  text-align: left; /* también alineado a la izquierda */
+  max-width: 438px; /* BRIEF */
+  margin: 0 0 80px; /* BRIEF */
 }
 
-/* Contenedor de los dos videos */
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 40px; /* separación entre videos */
+  gap: 40px; /* BRIEF */
 }
 
-/* Cada video */
 .recipes__video-item {
-  width: 480px;
+  width: 480px; /* BRIEF */
 }
 
-/* Medidas exactas del iframe */
 .recipes__iframe {
-  width: 480px;
-  height: 273px;
+  width: 480px; /* BRIEF */
+  height: 273px; /* BRIEF */
   display: block;
   border: none;
 }
 
-/* Texto debajo de cada video */
 .recipes__video-caption {
-  margin-top: 24px; /* 24px debajo del video */
+  margin-top: 24px; /* BRIEF */
   display: flex;
-  justify-content: space-between; /* título izquierda, tiempo derecha */
+  justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
 }
 
-/* ============ FOOTER ============ */
+/* ============ FOOTER (placeholder) ============ */
+
 .footer {
   height: 80px;
   background-color: #f1f1f1;
